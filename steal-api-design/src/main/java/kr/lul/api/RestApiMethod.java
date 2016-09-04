@@ -1,0 +1,27 @@
+/**
+ */
+package kr.lul.api;
+
+/**
+ * @author Just Burrow
+ * @since 2016. 9. 4.
+ */
+public enum RestApiMethod implements ApiMethod {
+  CREATE,
+  READ,
+  UPDATE,
+  DELETE;
+
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // <I>Method
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  /*
+   * (non-Javadoc)
+   * @author Just Burrow
+   * @since 2016. 9. 4.
+   */
+  @Override
+  public String getName() {
+    return this.name();
+  }
+}

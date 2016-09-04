@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>kr.lul.steal</groupId>
+    <artifactId>steal-project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>steal-domain</artifactId>
+  <name>Steal Domain</name>
+  <description>눈치게임 Steal의 도메인 오브젝트 모듈.</description>
+  <dependencies>
+    <dependency>
+      <groupId>kr.lul</groupId>
+      <artifactId>lulkr-common</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>kr.lul.steal</groupId>
+    <artifactId>steal-project</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>steal-jpa-configuration</artifactId>
+  <dependencies>
+    <dependency>
+      <groupId>kr.lul.steal</groupId>
+      <artifactId>steal-jpa</artifactId>
+      <version>${project.parent.version}</version>
+    </dependency>
+  </dependencies>
+  <name>Steal JPA Configuration</name>
+  <description>Steal 프로젝트의 JPA 관련 설정 코드.</description>
+</project>
